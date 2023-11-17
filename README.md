@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+Building a React Location Search Application with Google Place Autocomplete and Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Objective:
+Design a React application that allows users to find places using Google Place 
+Autocomplete and displays search results on a map. The application must utilize Redux 
+to store and manage search results, and you can choose one of the following methods 
+in combination with Redux: Redux Thunk, Redux Promise, Redux Saga, or Redux-Observable
+ Epics. The UI should be implemented using Material Design Kit for a simple and user-
+friendly experience.
 
-## Available Scripts
+Requirements:
 
-In the project directory, you can run:
+Google Place Autocomplete:
 
-### `npm start`
+Implement a textbox with autocomplete functionality using the Google Place 
+Autocomplete API (https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete).
+Fetch and display results based on user input.
+Redux Integration:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Utilize Redux for state management.
+Store and manage search results using one of the following methods: Redux Thunk,
+ Redux Promise, Redux Saga, or Redux-Observable Epics.
+Display Search History:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Display all searches that the user has tried.
+Leverage Redux to store and manage the search history.
+Material Design UI:
 
-### `npm test`
+Use the Material Design Kit (https://github.com/mui-org/material-ui) for building the 
+UI.
+Create a simple and user-friendly interface, showcasing your creativity as a Front-
+end developer.
+Code Structure:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Implement a scalable code structure using ES6 features.
+Use High Order Components (HOC) where necessary for code reusability.
+Functional Programming:
 
-### `npm run build`
+Apply great functional programming practices throughout the codebase to enhance 
+maintainability and readability.
+Redux-Observable Epic:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If you choose Redux-Observable, implement epics to handle complex asynchronous 
+actions in a scalable way.
+Additional Considerations:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Scalability:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Design the codebase in a way that it is scalable for potential future enhancements.
+ESLint:
 
-### `npm run eject`
+Use ESLint for static code analysis to maintain code quality.
+Testing:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Implement unit tests to validate the functionality of key components, actions, and 
+reducers.
+Documentation:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Provide clear documentation for setting up the project, running the application, and 
+any other relevant details.
+Code Comments:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Add comments in the code to explain complex logic or any crucial implementation 
+details.
+Delivery:
+Submit the React codebase along with any necessary setup instructions, documentation, 
+and a brief overview of the implemented features. The goal is to demonstrate your 
+ability to design a scalable and well-structured React project with Google Place 
+Autocomplete and Redux integration.
